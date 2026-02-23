@@ -1,2 +1,5 @@
-__pycache__/
+PageObjects/__pycache__/
+TestCases/__pycache__/
+TestCases/.pytest_cache
+Utilities/__pycache__/
 *.py[cod]
