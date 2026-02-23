@@ -1,1 +1,5 @@
-*.pyc
+ TestCases/.pytest_cache
+ Utilities/__pycache__
+ TestCases/.pytest_cache
+ PageObjects/__pycache__
+ .pytest_cache
