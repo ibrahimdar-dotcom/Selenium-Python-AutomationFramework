@@ -27,7 +27,7 @@ def browser(request):
 #Hook for adding env info in html report
 def pytest_configure(config):
     if config.pluginmanager.getplugin("metadata"):
-        config.stash[metadata_key]['Project Name'] = "Sauce Demo"
+        config.stash[metadata_key]['Project Name'] = "Automation Exercise"
         config.stash[metadata_key]['Author'] = "Ibrahim"
 
 #Hook for deleting/modify env info in html report
